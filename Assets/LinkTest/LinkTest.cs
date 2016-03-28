@@ -38,7 +38,7 @@ public class LinkTest : MonoBehaviour {
 
                 node = xml.SelectSingleNode("root/AssetUrl");
                 URL_SERVER_RES = node.Attributes.GetNamedItem("id").Value;
-
+                Debug.LogError("URL_SERVER_RES :" + URL_SERVER_RES);
             }
             catch (Exception e)
             {
@@ -55,7 +55,9 @@ public class LinkTest : MonoBehaviour {
         //请求非强制资源配置
         if (URL_SERVER_RES != "") {
             //获得资源配置表
-            WWW wwwXML = new WWW(ComTool.FormatTickUrl(URL_SERVER_RES + URL_SERVER_XML));
+            string path = ComTool.FormatTickUrl(URL_SERVER_RES + URL_SERVER_XML);
+            Debug.LogError(path);
+            WWW wwwXML = new WWW(path);
             if (wwwXML.error == null)
             {
                 string content = wwwXML.text;

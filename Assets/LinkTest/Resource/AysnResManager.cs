@@ -288,7 +288,7 @@ public class Texture2DMsg : CThreadMsgWebGet {
             }
             if (null != result && 0 < result.Length)
             {
-                AssetBundle ab = AssetBundle.LoadFromMemory(result);
+                AssetBundle ab = AssetBundle.CreateFromMemoryImmediate(result);
                 target = ab.LoadAsset(name, typeof(Texture2D)) as Texture2D;
                 Debug.LogError(target);
 
@@ -356,7 +356,7 @@ public class AudioMsg : CThreadMsgWebGet
             }
             if (null != result && 0 < result.Length)
             {
-                AssetBundle ab = AssetBundle.LoadFromMemory(result);
+                AssetBundle ab = AssetBundle.CreateFromMemoryImmediate(result);
                 target = ab.LoadAsset(name, typeof(AudioClip)) as AudioClip;
                 Debug.LogError(target);
 

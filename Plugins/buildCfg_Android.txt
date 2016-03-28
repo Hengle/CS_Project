@@ -1,0 +1,16 @@
+﻿<root sharedSDK = "Android/product/DragonFighterPlugin" >
+	<node name="baseSDK_release" >
+		<Plugin		val="Android/product/DragonFighter_Base_Sdk" />
+		<ApkName	val="base_DragonFighter_release" />
+		<Product	val="斗龙战士" />
+		<BoundleID	val="com.fitfun.DragonFighter" />
+		<iconPath	val="iconBase/default" />
+	</node>
+	<node name="miSDK_release" >
+		<Plugin		val="Android/product/DragonFighter_Mi_Sdk" />
+		<ApkName	val="mi_DragonFighter_release" />
+		<Product	val="斗龙战士" />
+		<BoundleID	val="com.fitfun.DragonFighter.mi" />
+		<iconPath	val="iconBase/default_mi" />
+	</node>
+</root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <property name="is_need_splash_sreen">true</property>
+    <property name="ChannelID">000000</property>
+<property name="MerchantId">1</property>
+<property name="AppId">1176</property>
+<property name="AppKey">dW2AsGUWg5GuP4dUUNwjUJjHF8D5is4L</property>
+<property name="GameId">10395</property>
+<property name="Code">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4DpNEVVsOZh6G36qRTu2hSBCophnSGi0BOBeWeA4M7J8+chhZkHz/fjvXo27ztt6DWIR4g2tHrKazAh2ji49N9vEoMYHcaspCkUXHearKJTM/oDEYjDEq3psrmZfX01rf9w1julLBl5MFuGtIKa5awiJ8DZC0EsA4+h2TD7f17QIDAQAB</property>
+</root>

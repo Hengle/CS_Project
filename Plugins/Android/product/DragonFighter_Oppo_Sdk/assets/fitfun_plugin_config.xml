@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <property name="is_need_splash_sreen">true</property>
+    <property name="ChannelID">000000</property>
+    <property name="oppo_appKey">c5217trjnrmU6gO5jG8VvUFU0</property>
+    <property name="oppo_appSecret">e2eCa732422245E8891F6555e999878B</property>
+</root>

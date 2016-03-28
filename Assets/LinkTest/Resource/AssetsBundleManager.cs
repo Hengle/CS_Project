@@ -248,7 +248,7 @@ public class AssetsBundleManager : IResManager {
                     
                     if (!dp)
                     { //作为主资源加载的
-                        ab = AssetBundle.LoadFromMemory(bytes);
+                        ab = AssetBundle.CreateFromMemoryImmediate(bytes);
                         string[] dpAbs = mMainManifest.GetAllDependencies(name);//取这个资源的所有依赖资源
                         if (dpAbs.Length == 0)//没有依赖
                         {
@@ -306,7 +306,7 @@ public class AssetsBundleManager : IResManager {
                         }
                         else
                         {
-                            ab = AssetBundle.LoadFromMemory(bytes);
+                            ab = AssetBundle.CreateFromMemoryImmediate(bytes);
                             abd = new AssetsBundleData();
                             abd.name = name;
                             abd.depIndex = 1;
